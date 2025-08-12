@@ -38,18 +38,18 @@ const navigation = [
     icon: Target,
   },
   {
-    title: "MCQ Generator",
-    url: "/mcq-generator",
+    title: "MCQs",
+    url: "/mcq",
     icon: FileQuestion,
   },
   {
-    title: "Instructor Manual Generator",
-    url: "/instructor-manual-generator",
+    title: "Instructor Manuals",
+    url: "/instructor-manual",
     icon: BookOpen,
   },
   {
-    title: "Grading Rubric Generator",
-    url: "/grading-rubric-generator",
+    title: "Grading Rubrics",
+    url: "/grading-rubric",
     icon: CheckSquare,
   },
 ];

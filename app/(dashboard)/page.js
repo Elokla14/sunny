@@ -29,7 +29,7 @@ export default function Home() {
         <Card>
           <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
             <CardTitle className="text-sm font-medium">Learning Objectives</CardTitle>
-            <Target className="h-4 w-4 text-blue-500" />
+            <Target className="h-4 w-4 text-blue-500" aria-hidden="true" />
           </CardHeader>
           <CardContent>
             <div className="text-2xl font-bold">12</div>
@@ -39,8 +39,8 @@ export default function Home() {
 
         <Card>
           <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-            <CardTitle className="text-sm font-medium">MCQs Generated</CardTitle>
-            <FileQuestion className="h-4 w-4 text-yellow-500" />
+            <CardTitle className="text-sm font-medium">MCQs</CardTitle>
+            <FileQuestion className="h-4 w-4 text-yellow-500" aria-hidden="true" />
           </CardHeader>
           <CardContent>
             <div className="text-2xl font-bold">47</div>
@@ -51,7 +51,7 @@ export default function Home() {
         <Card>
           <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
             <CardTitle className="text-sm font-medium">Instructor Manuals</CardTitle>
-            <BookOpen className="h-4 w-4 text-green-500" />
+            <BookOpen className="h-4 w-4 text-green-500" aria-hidden="true" />
           </CardHeader>
           <CardContent>
             <div className="text-2xl font-bold">8</div>
@@ -62,7 +62,7 @@ export default function Home() {
         <Card>
           <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
             <CardTitle className="text-sm font-medium">Grading Rubrics</CardTitle>
-            <CheckSquare className="h-4 w-4 text-purple-500" />
+            <CheckSquare className="h-4 w-4 text-purple-500" aria-hidden="true" />
           </CardHeader>
           <CardContent>
             <div className="text-2xl font-bold">15</div>
@@ -80,7 +80,7 @@ export default function Home() {
           <Card className="border-border/50 hover:border-blue-500/50 transition-colors cursor-pointer h-full">
             <CardHeader>
               <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center mb-4">
-                <Target className="h-6 w-6 text-white" />
+                <Target className="h-6 w-6 text-white" aria-hidden="true" />
               </div>
               <CardTitle>Learning Objectives</CardTitle>
               <CardDescription>
@@ -96,13 +96,13 @@ export default function Home() {
         </Link>
 
         <Link 
-          href="/mcq-generator"
+          href="/mcq"
           className="block transition-transform hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2 rounded-lg"
         >
           <Card className="border-border/50 hover:border-yellow-500/50 transition-colors cursor-pointer h-full">
             <CardHeader>
               <div className="w-12 h-12 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-lg flex items-center justify-center mb-4">
-                <FileQuestion className="h-6 w-6 text-white" />
+                <FileQuestion className="h-6 w-6 text-white" aria-hidden="true" />
               </div>
               <CardTitle>MCQs</CardTitle>
               <CardDescription>
@@ -118,13 +118,13 @@ export default function Home() {
         </Link>
 
         <Link 
-          href="/instructor-manual-generator"
+          href="/instructor-manual"
           className="block transition-transform hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 rounded-lg"
         >
           <Card className="border-border/50 hover:border-green-500/50 transition-colors cursor-pointer h-full">
             <CardHeader>
               <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center mb-4">
-                <BookOpen className="h-6 w-6 text-white" />
+                <BookOpen className="h-6 w-6 text-white" aria-hidden="true" />
               </div>
               <CardTitle>Instructor Manuals</CardTitle>
               <CardDescription>
@@ -140,13 +140,13 @@ export default function Home() {
         </Link>
 
         <Link 
-          href="/grading-rubric-generator"
+          href="/grading-rubric"
           className="block transition-transform hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 rounded-lg"
         >
           <Card className="border-border/50 hover:border-purple-500/50 transition-colors cursor-pointer h-full">
             <CardHeader>
               <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center mb-4">
-                <CheckSquare className="h-6 w-6 text-white" />
+                <CheckSquare className="h-6 w-6 text-white" aria-hidden="true" />
               </div>
               <CardTitle>Grading Rubrics</CardTitle>
               <CardDescription>
